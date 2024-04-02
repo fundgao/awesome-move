@@ -86,3 +86,7 @@ Forge 对象
 
 UpgradeCap 对象
 
+交易命令
+```
+sui client call --package $PACKAGE_ID --module apt --function mint --args $APT_TREASURYCAP 1 $TO_ADDRESS --gas-budget 100000000
+```
