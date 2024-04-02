@@ -17,6 +17,12 @@ sui client
 sui client envs
 ```
 
+新增testnet和mainnet节点
+```
+sui client new-env --alias testnet --rpc https://fullnode.testnet.sui.io:443
+sui client new-env --alias mainnet --rpc https://fullnode.mainnet.sui.io:443
+```
+
 切换活动网络
 ```
 sui client switch --env <ALIAS>
@@ -45,6 +51,28 @@ sui move build
 单元测试命令
 ```
 sui move test
+```
+
+领取开发币、测试币
+```
+#testnet
+curl --location --request POST 'https://faucet.testnet.sui.io/v1/gas' --header 'Content-Type: application/json' --data-raw '{ "FixedAmountRequest": { "recipient": "<ADDRESS>" } }'
+
+#devnet
+curl --location --request POST 'https://faucet.devnet.sui.io/gas' --header 'Content-Type: application/json' --data-raw '{ "FixedAmountRequest": { "recipient": "<ADDRESS>" } }'
+```
+
+发送代币
+```
+sui client transfer --to <接收方地址> --object-id <gasCoinId> --gas-budget 10000000
+
+注意：--gas-budget为本次交易所需的手续费，尽量写大一些，交互中会自动计算，并不是填写的数值。
+```
+
+合并代币
+多个不同余额的代币进行合并：
+```
+sui client merge-coin --primary-coin <保留代币地址> --coin-to-merge <被合并代币地址> --gas-budget 10000000
 ```
 
 ## 发布新币
