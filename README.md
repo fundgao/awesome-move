@@ -41,6 +41,12 @@ KEY_SCHEME 加密类型
 0 for ed25519, 1 for secp256k1, 2: for secp256r1
 ```
 
+切换钱包
+```
+#通过地址切换
+sui client switch --address 0x69ed35387475725ac0a6932ffcc9bf8a628c161abf815c82432222b98e0eaa01
+```
+
 查看当前地址中的币
 ```
 sui client gas
