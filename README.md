@@ -7,7 +7,7 @@ sui by move. All IN MOVE
 which sui
 ```
 
-将Sui客户端连接到网络
+Sui客户端 [初始化教程](Install/01.cli_start.md)
 ```
 sui client
 ```
