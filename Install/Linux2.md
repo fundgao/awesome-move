@@ -1,4 +1,4 @@
-
+# Linux 安装sui环境 - 懒人版
 
 ```
 sudo apt-get update
