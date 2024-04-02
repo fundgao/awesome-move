@@ -118,27 +118,3 @@ sui-move-analyzer是move语言编程的辅助插件，帮助更好的学习move�
 vscode中搜索sui-move-analyzer
 
 然后install进行安装即可。
-
-#### 3.2 本地安装sui-move-analyzer
-
-（1）二进制文件安装
-
-访问插件仓库https://github.com/movebit/move/releases/tag/sui_move_analyzer_release_v1.1.3
-
-然后将将文件重命名为`sui-move-analyzer`并放至`~/.cargo/bin`文件夹中：
-
-```
-mv sui-move-analyzer-ubuntu20.04-x86_64-v1.1.3 ~/.cargo/bin/sui-move-analyzer
-```
-
-本地完成后，再重启vscode即可生效。
-
-（2）源码编译安装
-
-通过cargo编译安装：
-
-```
-cargo install --git https://github.com/movebit/move --branch sui_move_analyzer sui-move-analyzer
-```
-
-安装在 `~/.cargo/bin` 文件夹中，安装完重启vscode即可。
