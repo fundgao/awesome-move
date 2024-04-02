@@ -1,4 +1,4 @@
-## Linux 安装sui环境 - 懒人版
+## [Linux 安装sui环境 - 懒人版](https://docs.sui.io/guides/developer/getting-started/sui-install)
 
 ```
 sudo apt-get update
