@@ -1,4 +1,4 @@
-# move-sui
+# [move-sui](https://docs.sui.io/guides/developer/getting-started/sui-install)
 sui by move. All IN MOVE
 
 ## 常用命令
