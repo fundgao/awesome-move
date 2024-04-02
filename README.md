@@ -33,6 +33,14 @@ sui client switch --env <ALIAS>
 sui client active-address
 ```
 
+创建新钱包
+```
+sui client new-address <KEY_SCHEME> <ALIAS>
+
+KEY_SCHEME 加密类型
+0 for ed25519, 1 for secp256k1, 2: for secp256r1
+```
+
 查看当前地址中的币
 ```
 sui client gas
