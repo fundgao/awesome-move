@@ -1,4 +1,4 @@
-## MacOS 安装sui环境
+## [MacOS 安装sui环境](https://docs.sui.io/guides/developer/getting-started/sui-install)
 
 > 本文的样例安装环境 Macbook M芯片，安装 Sui 的最快方法是使用每个版本附带的二进制文件。如果您需要对安装过程进行更多控制，可以从源安装。
 
