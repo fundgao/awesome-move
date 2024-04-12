@@ -132,3 +132,12 @@ UpgradeCap 对象
 ```
 sui client call --package $PACKAGE_ID --module apt --function mint --args $APT_TREASURYCAP 1 $TO_ADDRESS --gas-budget 100000000
 ```
+更新 sui 环境
+```
+cargo install --locked --git https://github.com/MystenLabs/sui.git --branch testnet sui
+```
+
+更新 Rust 环境
+```
+rustup update stable
+```
