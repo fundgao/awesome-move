@@ -30,6 +30,8 @@ sui client switch --env <ALIAS>
 
 查看当前钱包地址
 ```
+sui client addresses
+
 sui client active-address
 ```
 
