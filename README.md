@@ -1,7 +1,8 @@
 # [move-sui](https://docs.sui.io/guides/developer/getting-started/sui-install)
 sui by move. All IN MOVE
 
-## [Sui Move导论](https://intro-zh.sui-book.com)
+- [Sui Move导论](https://intro-zh.sui-book.com)
+- [学习Move领奖励](https://github.com/move-cn/letsmove)
 
 ## 常用命令
 要检查Sui是否已安装
