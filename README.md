@@ -3,6 +3,7 @@ sui by move. All IN MOVE
 
 - [Sui Move导论](https://intro-zh.sui-book.com)
 - [学习Move领奖励](https://github.com/move-cn/letsmove)
+- [Move 学习项目集合](https://github.com/zcy1024/SuiStudy)
 
 ## 常用命令
 要检查Sui是否已安装
