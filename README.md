@@ -147,3 +147,4 @@ cargo install --locked --git https://github.com/MystenLabs/sui.git --branch test
 ```
 rustup update stable
 ```
+
